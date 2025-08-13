@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
-*{
-  font-family: outfit;
+@theme {
+  --color-light-hover: #fcf4ff;
+  --color-dark-hover: #2a004a;
+  --color-dark-theme: #11001f;
+
+  --shadow-black: 4px 4px 0 #000;
+  --shadow-white: 4px 4px 0 #fff;
+}
+* {
+	font-family: outfit;
 }

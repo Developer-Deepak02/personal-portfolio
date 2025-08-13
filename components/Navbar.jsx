@@ -28,7 +28,7 @@ const Navbar = () => {
 					Deepak <span className="text-rose-500">.dev</span>
 				</a>
 
-				<ul className="hidden md:flex items-center gap-6 lg-gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50">
+				<ul className="hidden md:flex items-center gap-6 lg-gap-8 rounded-full px-12 py-3 bg-white/50 shadow-sm ">
 					<li>
 						<a href="#top">Home</a>
 					</li>
