@@ -1,19 +1,19 @@
-import React from 'react'
+import React from "react";
 import { Ovo } from "next/font/google";
-import { assets, serviceData } from '@/assets/assets';
-import Image from 'next/image';
+import { assets, serviceData } from "@/assets/assets";
+import Image from "next/image";
 
 // Load the Ovo font
 const ovo = Ovo({
-  subsets: ["latin"],
-  weight: ["400"],
+	subsets: ["latin"],
+	weight: ["400"],
 });
 
 const Services = () => {
-  return (
+	return (
 		<div
 			id="services"
-			className="w-11\12  mx-auto  px-[12%] py-10 scroll-mt-20"
+			className="w-12/12  mx-auto  px-[12%] py-10 scroll-mt-20"
 		>
 			<h4 className={`text-center mb-2 text-lg ${ovo.className}`}>
 				What i offers
@@ -43,6 +43,6 @@ const Services = () => {
 			</div>
 		</div>
 	);
-}
+};
 
-export default Services
+export default Services;

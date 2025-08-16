@@ -32,14 +32,15 @@ import menu_black from "./menu-black.png";
 import menu_white from "./menu-white.png";
 import close_black from "./close-black.png";
 import close_white from "./close-white.png";
-import web_icon from "./web-icon.png";
-import mobile_icon from "./mobile-icon.png";
-import ui_icon from "./ui-icon.png";
-import graphics_icon from "./graphics-icon.png";
 import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import ui_icon from "./ui.png";
+import database_icon from "./database.png";
+import server_icon from "./server.png";
+import fullstack_icon from "./code.png";
+
 
 export const assets = {
 	user_image,
@@ -54,11 +55,11 @@ export const assets = {
 	figma,
 	git,
 	mongodb,
-    linux,
-    nextjs,
-    reactjs,
-    postgresql,
-    tailwind,
+	linux,
+	nextjs,
+	reactjs,
+	postgresql,
+	tailwind,
 	right_arrow_white,
 	logo,
 	logo_dark,
@@ -76,14 +77,14 @@ export const assets = {
 	menu_white,
 	close_black,
 	close_white,
-	web_icon,
-	mobile_icon,
-	ui_icon,
-	graphics_icon,
 	right_arrow,
 	send_icon,
 	right_arrow_bold,
 	right_arrow_bold_dark,
+	ui_icon,
+	database_icon,
+	server_icon,
+	fullstack_icon,
 };
 
 export const workData = [
@@ -109,31 +110,34 @@ export const workData = [
 	},
 ];
 
+
 export const serviceData = [
 	{
-		icon: assets.web_icon,
-		title: "Web design",
-		description: "Web development is the process of building, programming...",
+		icon: assets.fullstack_icon,
+		title: "Full Stack Web Development",
+		description:
+			"Building responsive and scalable web applications using modern frontend and backend technologies.",
 		link: "",
 	},
 	{
-		icon: assets.mobile_icon,
-		title: "Mobile app",
+		icon: assets.server_icon,
+		title: "API & Backend Services",
 		description:
-			"Mobile app development involves creating software for mobile devices...",
+			"Developing secure and scalable RESTful and GraphQL APIs with Node.js and Express or Next.js API routes.",
+		link: "",
+	},
+	{
+		icon: assets.database_icon,
+		title: "Database Integration",
+		description:
+			"Designing and integrating databases like PostgreSQL and MongoDB using Prisma or Drizzle ORM.",
 		link: "",
 	},
 	{
 		icon: assets.ui_icon,
-		title: "UI/UX design",
+		title: "Frontend UI Development",
 		description:
-			"UI/UX design focuses on creating a seamless user experience...",
-		link: "",
-	},
-	{
-		icon: assets.graphics_icon,
-		title: "Graphics design",
-		description: "Creative design solutions to enhance visual communication...",
+			"Creating modern, responsive UIs with React, Tailwind CSS, and component libraries for optimal user experience.",
 		link: "",
 	},
 ];
@@ -165,9 +169,9 @@ export const toolsData = [
 	assets.mongodb,
 	assets.figma,
 	assets.git,
-    assets.linux,
-    assets.nextjs,
-    assets.reactjs,
-    assets.postgresql,
-    assets.tailwind,
+	assets.linux,
+	assets.nextjs,
+	assets.reactjs,
+	assets.postgresql,
+	assets.tailwind,
 ];
