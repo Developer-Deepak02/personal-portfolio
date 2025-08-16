@@ -30,6 +30,7 @@ const Work = () => {
 				<div className="border border-gray-400 rounded-lg px-8 py-12 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:bg-[var(--color-light-hover)] hover:shadow-[var(--shadow-black)]">
 					<Image
 						src="/work-1.png"
+						alt="work"
 						width={600}
 						height={400}
 						className="w-full rounded-md"
@@ -62,6 +63,7 @@ const Work = () => {
 				<div className="border border-gray-400 rounded-lg px-8 py-12 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:bg-[var(--color-light-hover)] hover:shadow-[var(--shadow-black)]">
 					<Image
 						src="/work-1.png"
+						alt="work"
 						width={600}
 						height={400}
 						className="w-full rounded-md"
@@ -94,6 +96,7 @@ const Work = () => {
 				<div className="border border-gray-400 rounded-lg px-8 py-12 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:bg-[var(--color-light-hover)] hover:shadow-[var(--shadow-black)]">
 					<Image
 						src="/work-1.png"
+						alt="work"
 						width={600}
 						height={400}
 						className="w-full rounded-md"
@@ -126,6 +129,7 @@ const Work = () => {
 				<div className="border border-gray-400 rounded-lg px-8 py-12 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:bg-[var(--color-light-hover)] hover:shadow-[var(--shadow-black)]">
 					<Image
 						src="/work-1.png"
+						alt="work"
 						width={600}
 						height={400}
 						className="w-full rounded-md"
